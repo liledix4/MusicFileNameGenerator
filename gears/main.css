@@ -1,0 +1,15 @@
+* {box-sizing: border-box;}
+
+body {
+    font-family: 'Exo 2';
+}
+
+#result-wrapper {
+    display: none;
+    font-size: 3em;
+}
+#result-wrapper.show {display: block;}
+
+input {
+    font-family: inherit;
+}

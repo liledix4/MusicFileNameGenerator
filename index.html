@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music File Name Generator</title>
+    <link rel="stylesheet" href="./gears/main.css">
+</head>
+<body>
+
+<div id="result-wrapper">
+    <code id="result"></code>
+    <hr>
+</div>
+<div>
+    <p><label>
+        WIP:
+        <input type="number" id="wip" min="1" step="0.1">
+    </label></p>
+    <p>
+        <label>
+            Authors:
+            <input type="text" id="author1">
+        </label>
+        <label>
+            feat.
+            <input type="text" id="author2">
+        </label>
+        <input type="text" id="author3">
+        <input type="text" id="author4">
+    </p>
+    <p><label>
+        Track title:
+        <input type="text" id="track-title">
+    </label></p>
+    <p><label>
+        <input type="checkbox" id="project-after">
+        Track title is recognizable enough
+    </label></p>
+    <p>
+        <label>
+            Project/Franchise/Media:
+            <input type="text" id="project1">
+        </label>
+        <label>
+            x
+            <input type="text" id="project2">
+        </label>
+        <label>
+            x
+            <input type="text" id="project3">
+        </label>
+        <label>
+            x
+            <input type="text" id="project4">
+        </label>
+    </p>
+    <p>
+        <label>
+            Edition:
+            <input type="text" id="edition1">
+        </label>
+        <input type="text" id="edition2">
+        <input type="text" id="edition3">
+        <input type="text" id="edition4">
+    </p>
+    <p>
+        <button id="submit" type="button">Submit</button>
+    </p>
+</div>
+
+<script src="./gears/main.js"></script>
+</body>
+</html>
